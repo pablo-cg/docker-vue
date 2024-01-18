@@ -25,5 +25,5 @@ jobs:
           environment_name: Docker-vue-env
           existing_bucket_name: elasticbeanstalk-sa-east-1-851725621526
           region: sa-east-1
-          version: ${{ github.sha }}
+          version_label: ${{ github.sha }}
           deployment_package: deploy.zip
