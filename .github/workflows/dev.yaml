@@ -1,8 +1,9 @@
-name: Deploy Vue App
+name: Push Dev
+
 on:
   push:
     branches:
-     - dev
+     - "dev"
 
 env:
   REPO_NAME: ''
